@@ -1,0 +1,23 @@
+{
+  "name": "duet-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickcorcoran10/duet-deploy.git"
+  },
+  "author": "pc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickcorcoran10/duet-deploy/issues"
+  },
+  "homepage": "https://github.com/patrickcorcoran10/duet-deploy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.21.9"
+  }
+}

@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"node server.js\" \"cd client && npm start\""
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/patrickcorcoran10/duet-deploy#readme",
   "dependencies": {
+    "concurrently": "^6.0.0",
     "express": "^4.17.1",
+    "mysql2": "^2.2.5",
     "sequelize": "^5.21.9"
   }
 }

@@ -1,14 +1,14 @@
 import React from "react";
-// import {
-//   FacebookShareButton,
-//   FacebookIcon,
-//   TwitterShareButton,
-//   TwitterIcon,
-//   RedditShareButton,
-//   RedditIcon,
-//   LinkedinShareButton,
-//   LinkedinIcon,
-// } from "react-share";
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  TwitterShareButton,
+  TwitterIcon,
+  RedditShareButton,
+  RedditIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+} from "react-share";
 const Footer = () => {
   return (
     <div className="footer">
